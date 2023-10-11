@@ -34,4 +34,85 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, #e9ded4 , rgb(229, 194, 159));
+  
+}
+
+.hot-drinks {
+  color: rgb(121, 70, 34);
+  font-size: small;
+  margin: 0.5rem;
+}
+
+.coffee-box {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  
+  height: 34.5rem;
+  width: 20rem;
+  
+
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  
+  background-color: rgb(250, 247, 243);
+  color: rgb(90, 56, 32);
+  border-radius: 1rem;
+  list-style: none;
+}
+
+.coffee-box ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.coffee-box img {
+  max-height: 13rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  object-fit: cover;
+  object-position: 25% 25% 25% 25%; 
+}
+
+.price {
+  color: rgb(179, 103, 41);
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.coffee-box :not(:first-child) {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* .coffee-box:nth-child(1) {
+  justify-content: center;
+  align-items: end;
+} */
+
+.coffee-box button {
+  background-color: rgb(99, 56, 5);
+  color: white;
+  border-radius: 0.5rem;
+  border-style: none;
+
+  width:18rem;
+  height: 2.5rem;
+
+
+  margin-bottom: 2rem;
+  /* margin-top: 1rem; */
+
+}
+
+.coffee-box button:hover {
+  background-color: rgb(144, 87, 36);
+  color: wheat;
 }
